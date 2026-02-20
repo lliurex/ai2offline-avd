@@ -1,0 +1,14 @@
+Source: ai2offline-avd
+Section: admin
+Priority: optional
+Maintainer: Juanma1980 <juanma1980@gmail.com>
+Uploaders: LliureX Team
+Build-Depends: debhelper (>= 12.0)
+Standards-Version: 4.4.1
+Homepage: https://github.com/lliurex/ai2offline-avd
+
+Package: ai2offline-avd
+Architecture: all
+Depends: zero-lliurex-ai2offline, android-sdk, android-sdk-platform-tools, ai2offline-emulator
+Description: AVD files for ai2offline
+ AVD files for ai2offline
